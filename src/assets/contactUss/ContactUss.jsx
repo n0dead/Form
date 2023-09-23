@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 export const ContactUss = () => {
@@ -73,14 +73,14 @@ export const ContactUss = () => {
         <label className='symbol-requiered name' htmlFor='telefono'>
       Telefono
         </label>
-        <input name='telefono' type='text' placeholder='Rellene con su telefono' required />
+        <input name='telefono' type='number' placeholder='Rellene con su telefono' required />
       </fieldset>
       
       <fieldset className='field-name'>
         <label className='symbol-requiered name' htmlFor='matricula'>
       Matricula
         </label>
-        <input name='matricula' type='text' placeholder='Rellene con su telefono' required />
+        <input name='matricula' type='text' placeholder='Ingrese su matricula' required />
       </fieldset>
 
       <fieldset className='field-enamil'>
