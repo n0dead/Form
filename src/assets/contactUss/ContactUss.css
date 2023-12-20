@@ -1,0 +1,356 @@
+fieldset {
+border-color: none;
+border-style:none;
+display: grid;
+grid-template-rows: auto auto;
+margin-top: -20px;
+height: 110px;
+width: 60%;
+margin-left: 10px;
+
+
+}
+
+form {
+
+    margin-top: -30px;
+}
+
+label {
+    font-family: sans-serif;
+    color: white;
+    font-size: medium;
+    margin-top: 35px;
+    margin-bottom: -42px;
+    
+}
+
+.message{
+    border-color: none;
+    border-style:none;
+    grid-template-rows: auto auto;
+    margin-top: -30px;
+    height: 190px;
+    width: 60%;
+
+
+}
+
+.send{
+
+    background-color:#A2FF86;
+    color: rgb(49, 49, 49);
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left:  30%;
+    margin-top: 40px;
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-bottom: 10px;
+  
+ 
+}
+
+option{
+    font-size: xl;
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.send:hover {
+    background-color:rgb(119, 221, 119);
+  }
+
+input{
+
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: -3px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+} 
+
+textarea{
+
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.symbol-requiered-name{
+
+    margin-bottom: -10px;
+}
+
+.grid-form {
+display: flex;
+height: 110px;
+width: 61%;
+
+}
+
+.telefono{
+    margin-top: 50px;
+    height: 37px;
+}
+
+input::placeholder{
+font-size: xl;
+color: #ccc;
+
+}
+
+
+.placeholder{
+    margin-top: 20PX;
+}
+
+textarea::placeholder {
+
+    margin-top: 20px;
+    font-size: xl;
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.symbol {
+
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1300px) {
+
+
+    form {
+
+        margin-top: -10px;
+    }
+
+    .message{
+        border-color: none;
+        border-style:none;
+        grid-template-rows: auto auto;
+        margin-top: 30px;
+        height: 110px;
+        width: 60%;
+    
+    
+    }
+
+    select {
+        border-radius: 10px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        margin-top: 0px;
+        margin-bottom: -16px;
+        height: 32px;
+    } 
+
+    input{
+
+     margin-top: -10px;
+     margin-bottom: 0px;
+    }
+
+    label {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: small;
+        margin-top: 9px;
+        margin-bottom: 0px;
+        
+    }
+
+
+    
+.message{
+    border-color: none;
+    border-style:none;
+    grid-template-rows: auto auto;
+    margin-top: 8px;
+    height: 180px;
+    width: 60%;
+
+
+}
+   
+    .telefono{
+        margin-top: 7px;
+        height: 32px;
+    }
+    
+   
+    .grid-form {
+        display: flex;
+        height: 100px;
+        width: 82%;
+        
+        }
+
+    fieldset {
+    border-color: none;
+    border-style:none;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 10px;
+    height: 65px;
+    width: 80%;
+    margin-left: 10px;
+    
+    
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    
+.send{
+
+    background-color:#A2FF86;
+    color: rgb(49, 49, 49);
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    margin-left:  50%;
+    margin-top: 40px;
+    width: 30%;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  
+ 
+}
+}
+
+@media screen and (max-width: 950px) {
+
+
+  
+
+form{
+
+ margin-left: 15%;   
+}
+
+.send{
+
+    margin-left:  28%;
+}
+
+
+
+}
+
+@media screen and (max-width: 450px) { 
+.symbol {
+
+    margin-bottom: 10px;
+}
+
+    form{
+
+        margin-left: 5%;  
+        margin-top: 73px; 
+       }
+    .send{
+
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+
+
+    .symbol-requiered-name {
+        margin-bottom: 12px;
+    }
+    .grid-form {
+
+      flex-direction: column;
+      width: 100%;
+      height: 100%; 
+      margin-top: -5px;
+    }
+
+    .telefono {
+        margin-top:10px ;
+        width: 100%;
+        height: 160%;
+    }
+
+    select{
+      margin-top:2px ;
+      width: 100%;
+      height: 160%;
+     
+    }
+
+    label {
+
+        margin-top: 9px;
+    margin-bottom: -2px
+    }
+
+    .telefono{
+
+        width: 100%;
+        height: 130%;
+        margin-top: 9px;
+    }
+
+    .send {
+       margin-top: 13px;
+        margin-left:  4%;
+        width: 45%;
+        
+    }
+
+    input{
+
+        border-radius: 0px;}
+
+        select {
+            margin-top: 0px;
+            width: 100%;
+            height: 160%;
+           border-radius:  0px; 
+           margin-bottom: 5px;
+        }
+
+        textarea{
+
+           border-radius: 0px; 
+          
+        }
+
+        .message {
+
+            height: 220px;
+        }
+
+       
+} 
+
+
+@media screen and (max-width: 400px) {
+form{
+
+    margin-left: 5%;  
+    margin-top: 13px; 
+   }}
